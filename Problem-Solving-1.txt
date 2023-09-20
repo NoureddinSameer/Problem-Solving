@@ -1,0 +1,140 @@
+
+void solve(){
+    ll n,sum=0;
+    cinn;
+    vi v(n,0);
+    cin(v);
+    for(int i=0;in;i++){
+        sum=sum+v[i];overflow
+        sum=(sum+v[i]%10)%10;(sum+v[i])%10
+    }
+     coutsum%10;
+    coutsum;
+}
+void solve(){
+    ll n,k;
+    cinnk;10 23
+    vi v(n,0),v2(n,0);
+    cin(v);0123456789
+    
+     Cyclic Rotations
+     shift a value of a specific index to k index 
+    k=k%n;23%10=3
+    for(int i=0;in;i++){
+        v2[(i+k)%n]=v[i];
+    }
+     the value of index 0 ---will be in index 3
+     the value of index 1 ---will be in index 4
+     the value of index 2 ---will be in index 5
+     the value of index 3 ---will be in index 6
+     the value of index 4 ---will be in index 7
+     the value of index 5 ---will be in index 8
+     the value of index 6 ---will be in index 9
+     the value of index 7 ---will be in index 0
+     the value of index 8 ---will be in index 1
+     the value of index 9 ---will be in index 2
+}
+void solve(){
+    ll days,months,years;
+    cindays; 5000 --13 10 20
+    years=days360;
+    days%=360;
+    months=days30;
+    days%=30;
+    coutyears' 'months' 'days;
+     years =4680 days
+     months= 300 days
+     days=20 days
+}
+void solve(){
+	ll n,m;
+	cinnm;
+	coutn%m;n%mm
+}
+void solve(){
+    ll a,b,m;
+    cinabm; 56 47 10
+     (a+b)%m=( (a%m)+(b%m) )%m
+     (56+47)%10=( (56%10)+(47%10) )%10
+     (103)%10=( (6)+(7) )%10
+     (103)%10=(13)%10
+     3=3
+ 
+    we know that number%m = number-(numberm)m
+ 
+     (a+b)- ((a+b)m) m     =( (a-(am)m)+( (b-(bm)m) ) )%m
+     (56+47)-((56+47)10) 10=( (56-(5610)10)+( (47-(4710)10) ) )%10
+     (103)  -((103)10)   10=( (56- (5)   10)+( (47- (4)   10) ) )%10
+     (103)  -(10)         10=( (56-    50    )+( (47-     40      ) )%10
+     (103)  -100             =( (      6      )+( (     7          ) )%10
+     (103)  -100             =( 13 )%10
+     3=( 13 )%10
+     3=3
+}
+    void solve(){
+    ll a,b,dividend,divisor,quotient,reminder;
+    cindividenddivisor;
+    a=dividend;
+    b=divisor;
+    quotient=ab;
+    reminder=a%b;a-(ab)b
+    a=(bquotient)+reminder;
+    b=(a-reminder)quotient;
+    quotient=(a-reminder)b;
+    reminder=a-(bquotient);
+    couta' 'b' 'quotient' 'reminder;
+}
+ 
+ 
+void solve(){
+     if today is tus what day will be after 40 days
+ 
+     saturday sunday monday tuesday wednesday thursday friday
+        0      1       2      3        4         5       6
+ 
+    vectorstring s={sat,sun,mon,tus,wen,thu,fri};
+    ll day,days;3 40
+    cindaydays;
+    couts[(day+days)%7]; (day+days)%7=(day%7)+(days%7)%7
+ 
+     if today is tus what day was before 40 days
+ 
+     saturday sunday monday tuesday wednesday thursday friday
+        0      1       2      3        4         5       6
+ 
+    vectorstring s={saturday,sunday,monday,tuesday,wednesday,thursday,friday};
+    ll day,days;3 40
+    cindaydays;
+    ll result=( (day-days)%70 ) ((day-days)%7)+7  (day-days)%7; if negative -- -37%7=-2+7=5
+    couts[result]; (day+days)%7=(day%7)+(days%7)%7
+ 
+ 
+     another way to remove the condition
+     if today is tus what day was before 40 days
+ 
+     saturday sunday monday tuesday wednesday thursday friday
+        0      1       2      3        4         5       6
+ 
+    vectorstring s={saturday,sunday,monday,tuesday,wednesday,thursday,friday};
+    ll day,days;3 40
+    cindaydays;
+    couts[((day-days)%7+7)%7]; (day+days)%7=(day%7)+(days%7)%7
+}
+void solve(){
+     Cyclic Rotations
+    bottle rotation
+     we have a bottle, start is it is position
+     where seconds is the number of seconds
+     each 1 second the bottle rotate 90 degrees
+     0 1   2   3   4
+     0 90 180 270 360
+     v[0]=v[4]=0
+    ll start,seconds;
+    cinstartseconds;90 23
+    vi v(4,0);
+    for(int i=1;i4;i++){
+        v[i]=v[i-1]+90;
+    }
+    (start==90)start=1(start==180)start=2(start==270)start=3start=0;
+    coutv[(start+seconds)%4];
+}
