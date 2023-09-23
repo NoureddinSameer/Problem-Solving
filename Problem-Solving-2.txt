@@ -7,7 +7,7 @@
 /***************************************************************/
 // Even: 2k where k is integer -->10 --> 2*5 --> so 10 is even
 // odd:  2k+1 where k is integer -->7 --> 2*3+1 --> so 7 is odd
-// so zero is even because 2*0 it applies the formula of even 2k
+// So zero is even because 2*0 it applies the formula of even 2k
 /***************************************************************/
 
 // Perfect Squares:1 4 9 16 25 36 49 64 81 100 121 144 169 196 225
