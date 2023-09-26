@@ -196,7 +196,7 @@
 // 12+A
 // So A could be 6 because 18/9=2    (18%9==0)
 // So here we have B=6 and A=6
-// So it will not be the answer because A=6 and b=6 so both of them is equal to each other
+// So it will not be the answer because A=6 and b=6 so both of them are equal to each other
 
 // So A=1 and B=2
 /***************************************************************/
